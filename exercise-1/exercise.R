@@ -1,8 +1,8 @@
 # Exercise 1: writing and executing functions
 
 # Write a function `AddThree` that adds 3 to an input value
-AddThree <- function(a) {
-  answer <- a + 3
+AddThree <- function(number) {
+  answer <- number + 3
   return (answer)
 }
 
@@ -10,8 +10,8 @@ AddThree <- function(a) {
 ten <- AddThree(7)
 
 # Write a function `FeetToMeters` that converts from feet to meters
-FeetToMeters <- function(a) {
-  answer <- a * 0.3048
+FeetToMeters <- function(feet) {
+  answer <- feet * 0.3048
   return (answer)
 }
 
